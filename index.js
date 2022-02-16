@@ -140,14 +140,14 @@ Hint: use `.reduce` */
 
 function getCountryWins(data, teamInitialsCB) {
 
-    const teamInitials = data.reduce(function(acc, item){
-        return acc + item["Home Team Initials"] + item["Away Team Initials"]
-    }, 0)
-    return (teamInitials / data.length)
+    // const teamInitials = data.reduce(function(acc, item){
+    //     return acc + item["Home Team Initials"] + item["Away Team Initials"]
+    // }, 0)
+    // return (teamInitials / data.length).toFixed(2);
 
 }
 
-console.log(getCountryWins(fifaData));
+// console.log(getCountryWins(fifaData));
 
 
 
