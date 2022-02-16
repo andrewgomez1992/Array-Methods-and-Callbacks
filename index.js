@@ -147,7 +147,6 @@ function getCountryWins(data, teamInitialsCB) {
 
 }
 
-// console.log(getCountryWins(fifaData));
 
 
 
